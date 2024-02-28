@@ -1,0 +1,59 @@
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    margin: auto;
+}
+
+.current-image{
+    border-radius: 12px;
+    height: 100%;
+    width:100%;
+}
+
+.arrow{
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;    
+    height: 33px;
+    color: white;    
+}
+
+.arrow-right{
+    right: 1rem;
+}
+
+.arrow-left{
+    left: 1rem;
+}
+
+.circle-div{
+    position: absolute;
+    display: flex;
+    bottom:1rem;
+}
+
+.circle-indicator{
+    border-radius: 50%;
+    width:10px;
+    height:10px;
+    margin:0 0.2rem;
+    background-color:#ffffff;
+}
+
+.inactive-circle-indicator{
+    background-color: gray;
+}
+.hide-current-image{
+    display:none;
+}
+
+
+
+
